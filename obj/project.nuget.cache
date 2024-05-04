@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "eVc/dnO4JCc/S5SleOkUazzNQrgGHP+jwnx/L86m9sK43mL5W28AM4CJ39CgQoHI6kegaJVKyP+Em7crHeRI3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rhuan\\Desktop\\Faculdade e Estudos\\Atividades 7° Periodo\\Tecnicas avançadas\\ProvaN2\\ProvaN2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rhuan\\.nuget\\packages\\csvhelper\\32.0.1\\csvhelper.32.0.1.nupkg.sha512",
+    "C:\\Users\\Rhuan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.15\\microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
+    "C:\\Users\\Rhuan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Rhuan\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Rhuan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Rhuan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Rhuan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Rhuan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
