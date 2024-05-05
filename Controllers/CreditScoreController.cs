@@ -32,6 +32,4 @@ public class CreditScoreController : ControllerBase
     var creditScores = CreditScore.Calcular(age, drivingExperience, vehicleYear, vehicleType, gender, education, income, annualMileage, _dataLoad);
     return Ok(creditScores);
   }
-
-
 }
