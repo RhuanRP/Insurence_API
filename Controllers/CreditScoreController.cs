@@ -19,14 +19,14 @@ public class CreditScoreController : ControllerBase
 
   [HttpGet("/credit_score")]
   public IActionResult CalculateCreditScore(
-    [FromForm] int age,
-    [FromForm] string gender,
-    [FromForm] int drivingExperience,
-    [FromForm] string education,
-    [FromForm] string income,
-    [FromForm] int vehicleYear,
-    [FromForm] string vehicleType,
-    [FromForm] string annualMileage)
+    [FromHeader] int age,
+    [FromHeader] string gender,
+    [FromHeader] int drivingExperience,
+    [FromHeader] string education,
+    [FromHeader] string income,
+    [FromHeader] int vehicleYear,
+    [FromHeader] string vehicleType,
+    [FromHeader] string annualMileage)
   {
 
     var creditScores = CreditScore.Calcular(age, drivingExperience, vehicleYear, vehicleType, gender, education, income, annualMileage, _dataLoad);
