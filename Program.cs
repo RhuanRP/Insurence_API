@@ -7,6 +7,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IDataLoad, DataLoad>();
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 
