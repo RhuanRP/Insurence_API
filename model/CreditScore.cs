@@ -1,40 +1,14 @@
 public class CreditScore
 {
-
-  // public CreditScore(int age, string gender, int drivingExperience, string education, string income, int vehicleYear, string vehicleType, string annualMileage)
-  // {
-  //   Age = age;
-  //   Gender = gender;
-  //   DrivingExperience = drivingExperience;
-  //   Education = education;
-  //   Income = income;
-  //   VehicleYear = vehicleYear;
-  //   VehicleType = vehicleType;
-  //   AnnualMileage = annualMileage;
-  // }
-  public static string GetAgeRange(int age)
+  public static IEnumerable<string> Calcular(int age, int drivingExperience, int vehicleYear, string vehicleType, string gender, string education, string income, string annualMileage, IDataLoad _dataLoad)
   {
-    if (age < 16)
-      return "";
-    else if (age < 26)
-      return "16-25";
-    else if (age < 40)
-      return "26-39";
-    else if (age < 65)
-      return "40-64";
-    else
-      return "65+";
-  }
+    string ageRange = Pessoa.GetIdade(age);
+    string drivingExperienceRange = Pessoa.GetExperiencia(drivingExperience);
+    string vehicleYearRange = Veiculo.GetAnoVeiculo(vehicleYear);
 
-  public static string GetDrivingExperienceRange(int drivingExperience)
-  {
-    if (drivingExperience < 10)
-      return "0-9y";
-    else if (drivingExperience < 20)
-      return "10-19y";
-    else if (drivingExperience < 30)
-      return "20-29y";
-    else
-      return "30y+";
+    List<Data> data = _dataLoad.Search();
+    var filteredData = data.Where(x => x.GENDER == gender && x.DRIVING_EXPERIENCE == drivingExperienceRange && x.EDUCATION == education && x.INCOME == income && x.VEHICLE_TYPE == vehicleType && x.VEHICLE_YEAR == vehicleYearRange && x.ANNUAL_MILEAGE == annualMileage && x.AGE == ageRange);
+
+    return filteredData.Select(x => x.CREDIT_SCORE);
   }
 }

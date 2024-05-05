@@ -29,17 +29,7 @@ public class CreditScoreController : ControllerBase
     [FromHeader] string annualMileage)
   {
 
-    Pessoa pessoa = new Pessoa(age, gender, drivingExperience, education, income, vehicleYear, vehicleType, annualMileage);
-    string ageRange = Pessoa.GetAgeRange(age);
-    string drivingExperienceRange = Pessoa.GetDrivingExperienceRange(drivingExperience);
-
-    string vehicleYearRange = vehicleYear < 2015 ? "before 2015" : "after 2015";
-
-    List<Data> data = _dataLoad.Search();
-    var filteredData = data.Where(x => x.GENDER == gender && x.DRIVING_EXPERIENCE == drivingExperienceRange && x.EDUCATION == education && x.INCOME == income && x.VEHICLE_TYPE == vehicleType && x.VEHICLE_YEAR == vehicleYearRange && x.ANNUAL_MILEAGE == annualMileage && x.AGE == ageRange);
-
-    var creditScores = filteredData.Select(x => x.CREDIT_SCORE);
-
+    var creditScores = CreditScore.Calcular(age, drivingExperience, vehicleYear, vehicleType, gender, education, income, annualMileage, _dataLoad);
     return Ok(creditScores);
   }
 

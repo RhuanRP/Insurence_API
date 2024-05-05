@@ -22,7 +22,7 @@ public class Pessoa
   public string VehicleType { get; set; }
   public string AnnualMileage { get; set; }
 
-  public static string GetAgeRange(int age)
+  public static string GetIdade(int age)
   {
     if (age < 16)
       return "";
@@ -35,8 +35,7 @@ public class Pessoa
     else
       return "65+";
   }
-
-  public static string GetDrivingExperienceRange(int drivingExperience)
+  public static string GetExperiencia(int drivingExperience)
   {
     if (drivingExperience < 10)
       return "0-9y";
