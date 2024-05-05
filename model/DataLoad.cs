@@ -8,7 +8,7 @@ public class DataLoad : IDataLoad
 {
   public List<Data> Search()
   {
-    return Load<Data>(".\\data\\Car_Insurance_Claim");
+    return Load<Data>("https://github.com/RhuanRP/Insurence_API/blob/main/data/Car_Insurance_Claim");
   }
   public List<T> Load<T>(string local)
   {
