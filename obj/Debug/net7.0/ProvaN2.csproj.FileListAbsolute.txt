@@ -32,3 +32,11 @@ C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avan�
 C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\obj\Debug\net7.0\ProvaN2.genruntimeconfig.cache
 C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\obj\Debug\net7.0\ref\ProvaN2.dll
 C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\bin\Debug\net7.0\Google.Apis.dll
+C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\bin\Debug\net7.0\Google.Apis.Auth.dll
+C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\bin\Debug\net7.0\Google.Apis.Core.dll
+C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\bin\Debug\net7.0\Google.Apis.Drive.v3.dll
+C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\bin\Debug\net7.0\System.Management.dll
+C:\Users\Rhuan\Desktop\Faculdade e Estudos\Atividades 7° Periodo\Tecnicas avançadas\ProvaN2\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Management.dll
