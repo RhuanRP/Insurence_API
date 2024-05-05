@@ -29,7 +29,7 @@ public class CreditScoreController : ControllerBase
     [FromHeader] string annualMileage)
   {
 
-    var creditScores = CreditScore.Calcular(age, drivingExperience, vehicleYear, vehicleType, gender, education, income, annualMileage, _dataLoad);
+    var creditScores = CreditScore.Calcular(age, gender, drivingExperience, education, income, vehicleYear, vehicleType, annualMileage, _dataLoad);
     return Ok(creditScores);
   }
 }

@@ -1,6 +1,6 @@
 public class CreditScore
 {
-  public static IEnumerable<string> Calcular(int age, int drivingExperience, int vehicleYear, string vehicleType, string gender, string education, string income, string annualMileage, IDataLoad _dataLoad)
+  public static IEnumerable<string> Calcular(int age, string gender, int drivingExperience, string education, string income, int vehicleYear, string vehicleType, string annualMileage, IDataLoad _dataLoad)
   {
     string ageRange = Pessoa.GetIdade(age);
     string drivingExperienceRange = Pessoa.GetExperiencia(drivingExperience);
